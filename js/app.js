@@ -20,8 +20,9 @@ function generateTemplate(name, data, basicElement) {
 
 //TASK 12.7
 
-var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
-var myHeaders = {
+var CORS = 'https://cors-anywhere.herokuapp.com/',
+baseUrl = CORS + 'https://kodilla.com/pl/bootcamp-api';
+myHeaders = {
   'X-Client-Id': '3677',
   'X-Auth-Token': 'd24d8fada74a820f9c2af80b5348164a'
 };
